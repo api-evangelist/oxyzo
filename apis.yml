@@ -1,8 +1,25 @@
 aid: oxyzo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oxyzo.png
 name: Oxyzo
-description: 'Oxyzo is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Oxyzo Financial Services is an RBI-registered Non-Banking Financial Company (NBFC)
+  providing customized SME and corporate financing across India. Founded as the lending arm of the
+  OfBusiness group, Oxyzo offers purchase finance, work order finance, invoice discounting, vendor
+  finance, business loans, machinery finance, and loan against property, serving industries such as
+  auto manufacturing, capital goods, e-mobility, logistics, pharmaceuticals, and textiles. The company
+  operates 145+ branches, has powered 10,000+ businesses, disbursed over Rs 77,000 crore, and holds
+  A+ ratings from CRISIL and ICRA. Oxyzo publishes no public developer/API surface; this profile
+  captures its identity and domain-security posture for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/oxyzo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Financial Services
+- Lending
+- SME Finance
+- Fintech
+- NBFC
+- India
+- Invoice Discounting
+- Working Capital
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/oxyzo-domain-security.yml
 - type: Website
   url: https://oxyzo.in
+- type: Blog
+  url: https://www.oxyzo.in/en/about/blogs
+- type: Support
+  url: https://www.oxyzo.in/en/contact-us
+- type: TermsOfService
+  url: https://www.oxyzo.in/en/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.oxyzo.in/en/privacy-policy
+- type: Login
+  url: https://retail.oxyzo.in/login
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
