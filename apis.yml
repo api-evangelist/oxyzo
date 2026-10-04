@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Lending
 - SME Finance
 - Fintech
@@ -61,6 +61,7 @@ tags_raw:
 - India
 - Invoice Discounting
 - Working Capital
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
